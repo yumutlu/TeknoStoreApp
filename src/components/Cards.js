@@ -22,7 +22,7 @@ const Cards = ({ card }) => {
 
         <Text style={styles.title}>{card.title}</Text>
         <Text style={styles.price}>{card.price}</Text>
-        {card.inStock ? "" : <Text style={styles.inStock}>Stokta yok</Text>}
+        {card.inStock ? "" : <Text style={styles.inStock}>Stokta Yok</Text>}
       </TouchableOpacity>
     </SafeAreaView>
   );
